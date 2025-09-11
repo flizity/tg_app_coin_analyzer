@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Аналитика TG-кошелька</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-bg">
+    <div class="search-bar">
+      <div class="search-container">
+        <input id="search-input" class="search-input" type="text" placeholder="Поиск">
+        <button id="clear-search" class="clear-search" style="display: none;">×</button>
+      </div>
+    </div>
+    <div class="cards-row" id="top-cards"></div>
+    <div class="tabs">
+      <button class="tab active">Все</button>
+      <button class="tab">Активы TON</button>
+      <button class="tab">Топ роста</button>
+      <button class="tab">Топ падений</button>
+      <button class="tab">Торговый объём</button>
+    </div>
+    <div class="coins-list" id="coins-list"></div>
+  </div>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

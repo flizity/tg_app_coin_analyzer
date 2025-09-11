@@ -1,0 +1,9 @@
+{
+  "balances": [
+    {"currency": "USD", "value": 82.47, "change": 1.56},
+    {"currency": "TON", "value": 254.51, "change": 1.39},
+    {"currency": "BTC", "value": 9229540.52, "change": 2.42},
+    {"currency": "ETH", "value": 354999.28, "change": 1.73},
+    {"currency": "XAU", "value": 301644.10, "change": 3.59}
+  ]
+}
